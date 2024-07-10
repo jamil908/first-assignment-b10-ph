@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+/* common style */
+h1{
+    /* .inspiration-title */
+    margin: 0 auto;
+    font-weight: 800;
+    line-height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 /* header section style start here */
 .header-container{
 width: 1440px;
@@ -77,11 +103,13 @@ left: 632px;
 
 /* main section start here */
 
+
+/* development style section start here */
+
 .development{
     width: 1140px;
 height: 1395px;
-/* margin: 0 auto; */
-margin:74px  144px 152px 148px;
+margin: 0 auto;
 padding: 80px 97px 80px 97px; 
 }
 .development-container{
@@ -94,35 +122,11 @@ margin: 0 auto;
 height: 115px;
 margin: 0 auto;
 }
-.dev-title-container h1{
-    margin: 0 auto;
-font-weight: 800;
-line-height: 37px;
-display: flex;
-justify-content: center;
-align-items: center;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 800;
-line-height: 37px;
-}
-.dev-title-container p{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: center;
-    margin: 0 auto;
-}
+
 .dev-container{
     padding: 47px;
 }
 .dev-content{
-    /* margin-top: 9px;
-    margin-bottom: px; */
-
     width: 100%;
 height: 336px;
 display: flex;
@@ -184,4 +188,105 @@ padding: 12px 20px 12px 20px;
     width: 259.56px;
 height: 217.01px;
 }
+/* development section style ends here */
+
+
+
+
+
+/* inspiration style starts here */
+
+.inspirations{
+    width: 1140px;
+height: 775px;
+margin: 0 auto;
+}
+.inspiration-title{
+margin: 0 auto;
+width: 852px;
+height: 113px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+
+
+.inspirations .inspiration-video{
+    width: 1074px;
+height: 545px;
+padding: 32px;
+margin-top: 48px;
+
+}
+iframe{
+    border-radius: 10px;
+}
+
+/* inspiration style ends here */
+
+/* my target/ fourth layout starts here */
+
+.target-container{
+    width: 1140px;
+height: 500px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 149px;
+
+}
+.target-title-container{
+    margin: 0 auto;
+    width: 946px;
+height: 145px;
+}
+.card-boxes{
+    width: 1140px;
+height: 299px;
+margin: 0 auto;
+margin-top: 15px;
+gap: 20px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+}
+.card-box{
+    width: 364px;
+height: 71%;
+padding: 40px;
+gap: 20px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+background: rgba(255, 76, 30, 0.05);
+
+
+}
+
+.card-box img{
+    width: 56px;
+height: 56px;
+}
+.card-box h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin: 0px;
+}
+.card-box p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+}
+
+
+ /* my target/ fourth layout ends here */
+
 /* main section end here */
