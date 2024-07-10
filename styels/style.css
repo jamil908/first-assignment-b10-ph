@@ -31,7 +31,7 @@ p{
 max-width: 1440px;
 max-height: 652px; 
 margin: 0 auto;
-background-image: url(/assets/Hero-bg.png);
+background-image: url(../assets/Hero-bg.png);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
