@@ -230,7 +230,6 @@ iframe{
 .target-container{
     width: 1140px;
 height: 500px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 149px;
 
@@ -290,3 +289,75 @@ text-align: left;
  /* my target/ fourth layout ends here */
 
 /* main section end here */
+
+
+/* footer section style start here */
+
+.footer-container{
+    width: 1140px;
+height: 314px;
+margin: 0 auto;
+background-image: url(/assets/handshake.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 64px 48px 64px 48px;
+border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+
+}
+
+.footer-content{
+    width: 1044px;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+.footer-content h1{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+
+}
+.footer-content p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+.footer-content input{
+    width: 548px;
+height: 57px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.footer-btn{
+    display: flex;
+    gap: 10px;
+}
+.footer-btn button{
+    width: 120px;
+    height: 58px;
+    border-radius: 10px;
+}
+
+/* footer section style end here */
